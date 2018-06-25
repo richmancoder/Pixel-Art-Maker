@@ -11,15 +11,15 @@ function makeGrid(event){
     let height = $('#inputHeight').val();
     let width = $('#inputWidth').val();
 
-    let grid = '';
-        //The loop that creates the table rows and cells
-        for (let colCount = 1; colCount <= height; colCount++) {
-            grid += '<tr>';
-            for (let rowCount = 1; rowCount <= width; rowCount++) {
-                grid += '<td></td>'
-            }
-            grid += '</tr>';
+    let grid = ''; //creates the table body
+    //The loop that creates the table rows and cells
+    for (let colCount = 1; colCount <= height; colCount++) {
+        grid += '<tr>';
+        for (let rowCount = 1; rowCount <= width; rowCount++) {
+            grid += '<td></td>'
         }
+        grid += '</tr>';
+    }
     return table.append(grid);
 }
 
