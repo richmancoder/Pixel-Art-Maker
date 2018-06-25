@@ -8,17 +8,17 @@ function makeGrid(event){
     table.empty(); // Clears table
 
     // Select size input
-    let height = $("#inputHeight").val();
-    let width = $("#inputWidth").val();
+    let height = $('#inputHeight').val();
+    let width = $('#inputWidth').val();
 
-    let gird = "";
+    let grid = '';
         //The loop that creates the table rows and cells
         for (let colCount = 1; colCount <= height; colCount++) {
-            grid += "<tr>";
+            grid += '<tr>';
             for (let rowCount = 1; rowCount <= width; rowCount++) {
                 grid += '<td></td>'
             }
-            grid += "</tr>";
+            grid += '</tr>';
         }
     return table.append(grid);
 }
@@ -26,9 +26,9 @@ function makeGrid(event){
 // Select color input
 function addColor() {
     let color = $('#colorPicker').val();
-    $(this).css("background-color", color);
+    $(this).css('background-color', color);
 }
 
 // When size is submitted by the user, call makeGrid()
 $('input[type="submit"]').click(makeGrid);
-$('#pixelCanvas').on("click", "td", addColor);
+$('#pixelCanvas').on('click', 'td', addColor);
