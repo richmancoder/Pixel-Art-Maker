@@ -1,8 +1,14 @@
 # Pixel-Art-Maker
-Google Africa Scholarship Challenge final project.
-The *Pixel Art Maker* allows user to create awesome arts with colors in a grid canvas.
+## Table of Content
+* [Description](##Description)
+* [How to Use](##How to Use)
+* [Languages and Tools](##Languages and Tools)
 
-# How to Use
+## Description
+This is a Google Africa Scholarship Challenge final project on UDACITY at ALC3.0.
+The *Pixel Art Maker* is a web app that allows user to create awesome arts with colors in a grid canvas.
+
+## How to Use
 Visit: https://richmancoder.github.io/Pixel-Art-Maker/ 
 Select the height and width of your preferred grid canvas.
 Pick colors from the color picker.
