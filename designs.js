@@ -26,7 +26,7 @@ function makeGrid(event){
 // Select color input
 function addColor() {
     let color = $('#colorPicker').val();
-    $(this).css('background-color', color);
+    return $(this).css('background-color', color);
 }
 
 // When size is submitted by the user, call makeGrid()
