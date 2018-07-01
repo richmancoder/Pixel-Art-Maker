@@ -16,7 +16,7 @@ function makeGrid(event){
     for (let colCount = 1; colCount <= height; colCount++) {
         grid += '<tr>';
         for (let rowCount = 1; rowCount <= width; rowCount++) {
-            grid += '<td></td>'
+            grid += '<td></td>';
         }
         grid += '</tr>';
     }
